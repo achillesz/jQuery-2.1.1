@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="./../src/Load.js"></script>
+</head>
+<body>
+
+<script>
+    var arr = [];
+    var obj = {};
+    var btrue = true;
+    var nany = 1;
+    var sany = '';
+    var fun = Array;
+    var a = [arr, obj, btrue, nany, sany, fun];
+    $.each(a, function(i, item) {
+        console.log($.type(item));
+    });
+    
+</script>
+</body>
+</html>
